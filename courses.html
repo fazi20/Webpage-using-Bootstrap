@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">MENTOR</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                aria-controls="navbarSupportedContent" id="#navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link"  href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"   href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"  href="#popular-courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="#trainers">Trainers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Drop Down
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-disabled="true"></a>
+                    </li>
+                </ul>
+                <button class="btn px-4" type="submit">Get Started</button>
+            </div>
+        </div>
+    </nav>
+    <div class="content text-center text-white mt-5" style="background-color: #5fcf80; padding: 40px;  ">
+
+        <h2>Courses</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae consequuntur est voluptate quos at
+            sunt, adipisci voluptatum quaerat cum vero iste accusantium sequi esse molestias dignissimos autem
+            repellat eligendi eaque in id asperiores earum! Unde itaque, porro vitae iure dicta repellat, pariatur
+            voluptate officiis quia, totam voluptatem eligendi deleniti amet.</p>
+    </div>
+
+    <section id="popular-courses" class="courses" >
+        <div class="container" >
+
+            <div class="row" data-aos="zoom-in" data-aos-duration="2000">
+                <div class="col-lg-4 col-md-6 mb-3  ">
+                    <div class="course-item" style="border: 1px solid #eef0ef;">
+                        <img src="img/course-1.jpg" alt="">
+
+                        <div class="course-content p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h4>Web development</h4>
+                                <p class="pricing">$165</p>
+                            </div>
+                            <h3><a href="">Web Designing</a></h3>
+                            <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores
+                                dolorem tempore.</p>
+                            <hr>
+                            <div class="trainer d-flex align-items-center justify-content-between">
+
+                                <div class="trainer-profile">
+                                    <img src="img/trainers/trainer-1.jpg" alt="">
+                                    <span>Antonio</span>
+                                </div>
+                                <div class="trainer-rank">
+                                    <i class='bx bx-user'></i>&nbsp;50&nbsp;&nbsp;
+                                    <i class='bx bx-heart'></i> 70
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <div class="course-item" style="border: 1px solid #eef0ef;">
+                        <img src="img/course-2.jpg" alt="">
+
+                        <div class="course-content p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h4>Marketing</h4>
+                                <p class="pricing">$260</p>
+                            </div>
+                            <h3><a href="">Search Engine Optimization</a></h3>
+                            <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores
+                                dolorem tempore.</p>
+                            <hr>
+                            <div class="trainer d-flex align-items-center justify-content-between">
+
+                                <div class="trainer-profile">
+                                    <img src="img/trainers/trainer-2.jpg" alt="">
+                                    <span>Lana</span>
+                                </div>
+                                <div class="trainer-rank">
+                                    <i class='bx bx-user'></i>&nbsp;50&nbsp;&nbsp;
+                                    <i class='bx bx-heart'></i> 70
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <div class="course-item" style="border: 1px solid #eef0ef;">
+                        <img src="img/course-3.jpg" alt="">
+
+                        <div class="course-content p-3">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h4>Content</h4>
+                                <p class="pricing">$180</p>
+                            </div>
+                            <h3><a href="">Copywriting</a></h3>
+                            <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores
+                                dolorem tempore.</p>
+                            <hr>
+                            <div class="trainer d-flex align-items-center justify-content-between">
+
+                                <div class="trainer-profile">
+                                    <img src="img/trainers/trainer-3.jpg" alt="">
+                                    <span>Brandon</span>
+                                </div>
+                                <div class="trainer-rank">
+                                    <i class='bx bx-user'></i>&nbsp;50&nbsp;&nbsp;
+                                    <i class='bx bx-heart'></i> 70
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </section>
+
+    <section id="#footer" class="footer bg-light">
+        <div class="container ">
+
+            <div class="row p-2">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h3>Mentor</h3>
+                    <p>A108 Adam Street <br>
+                        New York, NY 535022 <br>
+                        United States</p>
+
+                    <strong>Phone</strong> +92-3245677890
+                    <strong>Email</strong> hanan@gmail.com
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="useful">
+                        <h4>Useful Links</h4>
+                        <ul class="p-0">
+                            <li> <i class='bx bx-chevron-right'></i><a href="">Home</a></li>
+                            <li> <i class='bx bx-chevron-right'></i><a href="">About Us</a></li>
+                            <li> <i class='bx bx-chevron-right'></i><a href="">Services</a></li>
+                            <li> <i class='bx bx-chevron-right'></i><a href="">Term of Service</a></li>
+                            <li> <i class='bx bx-chevron-right'></i><a href="">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="useful">
+                        <h4>Our Services</h4>
+                        <ul class="p-0">
+                            <li> <i class='bx bx-chevron-right  '></i><a href="">Home</a></li>
+                            <li> <i class='bx bx-chevron-right  '></i><a href="">About Us</a></li>
+                            <li> <i class='bx bx-chevron-right  '></i><a href="">Services</a></li>
+                            <li> <i class='bx bx-chevron-right  '></i><a href="">Term of Service</a></li>
+                            <li> <i class='bx bx-chevron-right  '></i><a href="">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 newsletter">
+                    <div class="useful">
+                        <h4>Join Our Newsletter</h4>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <form action="">
+                            <input type="text">
+                            <input type="submit" class="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <script src="app.js"></script>
+
+
+
+
+</body>
+
+</html>
